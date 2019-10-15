@@ -1,7 +1,8 @@
 language: ruby
 dist: xenial
 rvm: 2.5.3
-
+- name: Run Jest
+  uses: stefanoeb/jest-action@1.0.0
 services:
   - redis
 
