@@ -11,7 +11,7 @@ def gh(slug)
 end
 
 gem 'activesupport', '~> 4.0'
-gem 'addressable', '~> 2.3'
+gem 'addressable', '~> 2.7'
 gem 'codeclimate-test-reporter', require: false, group: %i[development test]
 gem 'coder'
 gem 'connection_pool'
