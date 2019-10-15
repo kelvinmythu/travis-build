@@ -90,7 +90,7 @@ GEM
       atomic (~> 1.0)
       avl_tree (~> 1.1.2)
       hitimes (~> 1.1)
-    minitar (0.6.1)
+    minitar (0.9)
     minitest (5.11.3)
     mocha (1.7.0)
       metaclass (~> 0.0.1)
