@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: parallel_tests
+    versions:
+    - 3.4.0
+    - 3.5.0
+    - 3.5.1
+    - 3.5.2
+    - 3.6.0
+  - dependency-name: pry
+    versions:
+    - 0.13.1
+    - 0.14.0
